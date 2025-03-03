@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: Poppins;
+}
+
+/* slide-1*/
+.Slide-1 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  /*marge interieur*/
+}
+
+.Slide-1 img {
+  width: 400px;
+  height: 350px;
+}
+
+.Slide-1 h1 {
+  margin-bottom: 32px;
+  /*peut faire plusieure valeur*/
+  font-size: 30px;
+  color: blueviolet;
+  align-items: center;
+
+}
+
+.Slide-1 p {
+  font-size: x-large;
+  color: rgb(50, 45, 45);
+}
+
+
+/* slide-2*/
+.Slide-2 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.Slide-2 h2 {
+  color: blueviolet;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Slide-2 .ligne h3 {
+  color: black;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+}
+
+.ligne {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.ligne h3 {
+  margin-bottom: 5px;
+}
+
+.ligne p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+
+/* slide-3*/
+.slide-3 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 20px auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image-3 img {
+  width: 300px;
+  height: 400px;
+}
+
+.slide-3 .principal h2 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.slide-3 .principal ol li h3 {
+  color: black;
+  font-size: 25px;
+  margin: 15px 0 5px 0;
+}
+
+.slide-3 .principal ol li p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+
+/* slide-4*/
+.Slide-4 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.Slide-4 h2 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.principal_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  line-height: 1.3;
+margin-bottom: 5px;
+}
+
+.principal_1 h3 {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.principal_1 p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* slide-5 */
+.slide-5 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 20px auto;
+  text-align: justify;
+  padding: 30px;
+}
+
+.slide-5 h2 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.slide-5 ol li h3 {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.slide-5 ol li p {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+
+/* slide-6 */
+.slide-6 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
+.principal_3 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  gap: 45px;
+}
+.slide-6 Img {
+  width: 350px;
+  height: 450px;
+}
+.slide-6 ol li p {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.slide-6 ol li h3 {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.slide-6 h2 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.Slide-7 {
+  background-color: rgb(205, 194, 229);
+  width: 70%;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Slide-7 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+} 
+.Slide-7 ul li{
+  list-style: none;
+} 
+.Slide-7 h2 {
+  color: blueviolet;
+  font-size: 30px;
+  margin-bottom: 20px;
+} 
+.Slide-7 ul li h3{
+  color: black;
+  font-size: 25px;
+  margin-bottom: 10px;
+} 
+.Slide-7 ul li p{
+  color: black;
+  font-size: 16px;
+  margin-bottom: 15px;
+} 
+
+header {
+background-color: blueviolet;
+color: black;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+height: 40px;
+padding-bottom: 20px;
+}
+header p {
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+}
+footer p {
+  width: 100%;
+  height: 30px;
+  background-color: blueviolet;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #fff;
+}
